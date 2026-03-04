@@ -64,6 +64,7 @@ This system reduces manual paperwork, ensures quick access to student data, and 
 • Permanent data storage
 
 • Fast retrieval of student records
+<<<<<<< HEAD
 
 • Reduces manual work
 
@@ -102,3 +103,11 @@ Author: Varun Patel
    /usr/bin/python3 /home/varun/AdvorixIntersihp_tasks/AdvorixInternsihp_task1.py
 
 
+=======
+
+• Reduces manual work
+
+• Structured and organized data management
+
+Author: Varun Patel
+>>>>>>> b1a062a (Initial commit - Python management system)

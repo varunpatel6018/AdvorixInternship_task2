@@ -110,4 +110,4 @@ Author: Varun Patel
 • Structured and organized data management
 
 Author: Varun Patel
->>>>>>> b1a062a (Initial commit - Python management system)
+

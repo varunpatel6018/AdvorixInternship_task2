@@ -40,11 +40,11 @@ Open the terminal in the project directory.
 
 Run the following command:
 
-python AdvorixInternship_task2.py
+"python AdvorixInternship_task2.py"
 
 If required:
 
-python3 AdvorixInternship_task2.py
+"python3 AdvorixInternship_task2.py"
 
 Email Account Configuration
 

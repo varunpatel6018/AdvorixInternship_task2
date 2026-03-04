@@ -1,113 +1,132 @@
-# AdvorixInternsihp_task1
-Python Programming Project ( Task 1)  Command-line based Management System.
+# AdvorixInternsihp_task2
+Python Programming Project ( Task 2)  Command-line based Email Reader.
 
-📘 Description of Student Management System (Python – CSV Based Command Line)
+Project Overview
 
-The Student Management System is a command-line based application developed using Python that helps in storing and managing student information in an organized manner. The system uses a CSV (Comma Separated Values) file to permanently store the data, which allows the user to access the records even after the program is closed.
+AdvorixInternship_task2.py is a command-line based Email Reader application developed using Python.
 
-This program is menu-driven and provides an interactive interface in the terminal where the user can choose different operations such as adding a new student, viewing all student records, updating existing details, and deleting a student record.
+The project connects to an email account using the IMAP protocol, retrieves emails from the inbox, and processes them based on the program’s logic. This system demonstrates practical implementation of email handling and basic automation using Python.
 
-At the beginning of the program, the system checks whether the file students.csv exists. If the file is not present, it is automatically created with appropriate column headings such as:
+Features
 
-ID, Name, Age, Course, Semester, Marks
+Connects to an email account securely using IMAP
 
-The Add Student option allows the user to enter student details including student ID, name, age, course, semester, and marks. These details are stored in the CSV file in append mode so that previous records are not overwritten.
+Fetches emails from the inbox
 
-The View Students option reads the data from the CSV file and displays it in a properly formatted tabular form on the screen, making it easy for the user to understand the stored information.
+Reads subject, sender, and message content
 
-The Update Student feature allows modification of student details by searching the record using the student ID. Once the matching record is found, the user can enter the new details, and the file is rewritten with the updated data.
+Displays email details in a structured format
 
-The Delete Student option removes a particular student’s record from the file based on the entered student ID.
+Command-line based execution
 
-The program makes use of various Python concepts such as:
+Error handling for login and connection issues
 
-• Functions for modular programming
+Technologies Used
 
-• Loops for continuous menu display
+Python 3
 
-• Conditional statements for user choices
+imaplib library
 
-• File handling using CSV module
+email library
 
-• String formatting for proper output display
+Command Line Interface (CLI)
 
-• Basic error handling for smooth execution
- 
-This system reduces manual paperwork, ensures quick access to student data, and provides an efficient and user-friendly way to manage records.
+File Structure
+AdvorixInternship_task2.py
+README.md
+How to Run the Project
 
-🎯 Objectives of the Project
+Open the terminal in the project directory.
 
-•To store student records using a CSV file
+Run the following command:
 
-• To implement add, view, update, and deleteoperations
+python AdvorixInternship_task2.py
 
-• To include academic details like semester and marks
+If required:
 
-• To create a menu-driven command-line application
+python3 AdvorixInternship_task2.py
+Email Account Configuration
 
-• To understand file handling in Python 
+To connect your email account, update the credentials section inside the Python file.
 
-🛠 Technologies Used
+Example configuration:
 
-• Python Programming Language
+EMAIL_USER = "your_email@gmail.com"
+EMAIL_PASS = "your_app_password"
+IMAP_SERVER = "imap.gmail.com"
+Steps to Link Gmail Account
 
-• CSV Module
+If using Gmail:
 
-• Command Line Interface
+Enable IMAP:
 
-• File Handling
+Go to Gmail → Settings → See all settings
 
-✅ Advantages
+Open “Forwarding and POP/IMAP”
 
-• Simple and easy to operate
+Enable IMAP
 
-• Permanent data storage
+Generate an App Password:
 
-• Fast retrieval of student records
-<<<<<<< HEAD
+Go to Google Account → Security
 
-• Reduces manual work
+Enable 2-Step Verification
 
-• Structured and organized data management
+Open App Passwords
 
-Author: Varun Patel
+Generate a password for Mail
 
-## ▶️ How to Run
+Use that generated password in your Python code
 
-1. Clone the repository
-   git clone https://github.com/varunpatel6018/AdvorixInternsihp_task1.git
+Important:
+Do not use your main Gmail password directly.
 
-2. Go to the project folder
-   cd /home/varun/AdvorixIntersihp_tasks
+Security Recommendation
 
-3. Create virtual environment
-   python -m venv my_env
+Do not upload real email credentials to GitHub.
 
-4. Activate virtual environment
+Instead, use environment variables:
 
-   Windows:
-   my_env\Scripts\activate
+import os
 
-   Mac/Linux:
-   source my_env/bin/activate
+EMAIL_USER = os.getenv("EMAIL_USER")
+EMAIL_PASS = os.getenv("EMAIL_PASS")
 
-5. Run the program
-   python AdvorixInternsihp_task1.py
+Then set them in your terminal before running the program.
 
-   or
+Objectives of the Project
 
-   /usr/bin/python /home/varun/AdvorixIntersihp_tasks/AdvorixInternsihp_task1.py
+To understand email communication protocols (IMAP)
 
-   or
+To implement real-world email automation
 
-   /usr/bin/python3 /home/varun/AdvorixIntersihp_tasks/AdvorixInternsihp_task1.py
+To practice Python networking concepts
+
+To develop a command-line based automation tool
+
+Future Improvements
+
+Add filtering by subject or sender
+
+Add option to download attachments
+
+Store emails in a local database
+
+Create a graphical user interface
+
+Author
+
+Varun Patel
+
+If you want, I can also give:
+
+A shorter college submission version
+
+A GitHub professional version with badges
+
+A combined README for both Task 1 and Task 2
 
 
-=======
 
-• Reduces manual work
 
-• Structured and organized data management
-
-Author: Varun Patel
 

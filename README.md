@@ -45,6 +45,7 @@ python AdvorixInternship_task2.py
 If required:
 
 python3 AdvorixInternship_task2.py
+
 Email Account Configuration
 
 To connect your email account, update the credentials section inside the Python file.
@@ -96,35 +97,29 @@ Then set them in your terminal before running the program.
 
 Objectives of the Project
 
-To understand email communication protocols (IMAP)
+• To understand email communication protocols (IMAP)
 
-To implement real-world email automation
+• To implement real-world email automation
 
-To practice Python networking concepts
+• To practice Python networking concepts
 
-To develop a command-line based automation tool
+• To develop a command-line based automation tool
 
 Future Improvements
 
-Add filtering by subject or sender
+• Add filtering by subject or sender
 
-Add option to download attachments
+• Add option to download attachments
 
-Store emails in a local database
+• Store emails in a local database
 
-Create a graphical user interface
+• Create a graphical user interface
 
 Author
 
 Varun Patel
 
-If you want, I can also give:
 
-A shorter college submission version
-
-A GitHub professional version with badges
-
-A combined README for both Task 1 and Task 2
 
 
 
